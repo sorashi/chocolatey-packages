@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>taiga</id>
+    <version>1.3.1</version>
+    <owners>sorashi</owners>
+    <packageSourceUrl>https://github.com/Sorashi/chocolatey-packages</packageSourceUrl>
+
+    <title>Taiga</title>
+    <authors>erengy</authors>
+    <projectUrl>https://taiga.moe/</projectUrl>
+    <iconUrl>https://taiga.moe/img/icon/taiga_256px.png</iconUrl>
+
+    <licenseUrl>https://github.com/erengy/taiga/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/erengy/taiga/</projectSourceUrl>
+    <docsUrl>https://github.com/erengy/taiga/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/erengy/taiga/issues</bugTrackerUrl>
+    <tags>taiga anime</tags>
+    <summary>A lightweight anime tracker for Windows</summary>
+    <description>Taiga is an open-source desktop application for Windows. It automatically detects the anime videos you watch on your computer and synchronizes your progress with online services. It helps you manage your anime library, discover new series, share watched episodes and download new ones.</description>
+    <releaseNotes>https://github.com/erengy/taiga/wiki/Changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
