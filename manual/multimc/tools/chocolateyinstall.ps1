@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url        = 'https://github.com/MultiMC/MultiMC5/releases/download/0.6.8/mmc-stable-win32.zip'
+$url        = 'https://github.com/MultiMC/MultiMC5/releases/download/0.6.11/mmc-stable-win32.zip'
 $toolsDir   = "$(Get-ToolsLocation)"
 
 $packageArgs = @{
@@ -7,7 +7,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   url           = $url
   softwareName  = 'multimc*'
-  checksum      = '72be9de2f41483d9f43c942e481960d1de8f0b5835c8d2bef8154a4dc74c1932'
+  checksum      = '007b517746a7659560c9d9abc8a2e42a7497e27337ada4adfad06390446f59bc'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
