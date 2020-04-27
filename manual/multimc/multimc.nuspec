@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
@@ -10,7 +10,7 @@
     <title>MultiMC 5</title>
     <authors>MultiMC Contributors</authors>
     <projectUrl>https://multimc.org/</projectUrl>
-    <iconUrl>https://avatars2.githubusercontent.com/u/5411890</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/MultiMC/MultiMC5/5c921589f1db2acb9691b3077fddf6a9d7336693/application/resources/multimc/128x128/instances/infinity.png</iconUrl>
     <copyright>© 2013-2020 MultiMC Contributors</copyright>
     <licenseUrl>https://github.com/MultiMC/MultiMC5#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
