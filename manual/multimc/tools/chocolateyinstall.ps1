@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://github.com/MultiMC/MultiMC5/releases/download/0.6.8/mmc-stable-win32.zip'
+$toolsDir   = "$(Get-ToolsLocation)"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,12 +11,6 @@ $packageArgs = @{
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
-
-Write-Host "Adding Users' FullControl permission for $(Join-Path $toolsDir "MultiMC")"
-$acl = Get-Acl $(Join-Path $toolsDir "MultiMC")
-$ar = New-Object System.Security.AccessControl.FileSystemAccessRule("Users", "FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
-$acl.SetAccessRule($ar)
-Set-Acl $(Join-Path $toolsDir "MultiMC") $acl
 
 Write-Host "Creating Start Menu and Desktop shortcuts"
 $startmenu = Join-Path $env:programdata "Microsoft\Windows\Start Menu\Programs"
