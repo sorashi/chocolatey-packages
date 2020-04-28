@@ -11,7 +11,10 @@ if (Test-Path $DesktopShortcut)
 }
 
 $multimcdir = Join-Path "$(Get-ToolsLocation)" MultiMC
-Write-Host "Your instances will be deleted (if they live in the MultiMC directory: $multimcdir)" -ForegroundColor Black -BackgroundColor Yellow
-Write-Host "Ctrl-C to cancel" -ForegroundColor Black -BackgroundColor Yellow
-timeout 10
-Remove-Item -path "$multimcdir" -recurse
+if(Test-Path $multimcdir)
+{
+  Write-Host "Your instances will be deleted (if they live in the MultiMC directory: $multimcdir)" -ForegroundColor Black -BackgroundColor Yellow
+  Write-Host "Ctrl-C to cancel" -ForegroundColor Black -BackgroundColor Yellow
+  timeout 10
+  Remove-Item -path "$multimcdir" -recurse
+}
