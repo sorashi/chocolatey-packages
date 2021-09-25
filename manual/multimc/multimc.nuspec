@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>multimc</id>
-    <version>0.6.12</version>
+    <version>0.6.13</version>
     <packageSourceUrl>https://github.com/sorashi/chocolatey-packages</packageSourceUrl>
     <owners>Anthony Mastrean, Sorashi</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
