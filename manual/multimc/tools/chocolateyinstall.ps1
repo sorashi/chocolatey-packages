@@ -1,5 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
-$url        = 'https://github.com/MultiMC/MultiMC5/releases/download/0.6.13/mmc-stable-win32.zip'
+$url        = 'https://github.com/MultiMC/MultiMC5/releases/download/0.6.16/mmc-stable-win32.zip'
 $toolsDir   = "$(Get-ToolsLocation)"
 
 $packageArgs = @{
