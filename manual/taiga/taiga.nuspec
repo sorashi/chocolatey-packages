@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>taiga</id>
-    <version>1.4.0-beta2</version>
+    <version>1.4.0</version>
     <owners>sorashi</owners>
     <packageSourceUrl>https://github.com/Sorashi/chocolatey-packages</packageSourceUrl>
 

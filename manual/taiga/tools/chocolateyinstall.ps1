@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/erengy/taiga/releases/download/v1.4.0-beta.2/TaigaSetup_1.4.0-beta.2.exe'
+$url        = 'https://github.com/erengy/taiga/releases/download/v1.4.0/TaigaSetup_1.4.0.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
   url64bit      = $url
 
   softwareName  = 'taiga*'
-  checksum      = 'c8c776e3309314f4d8f813476d165b83bc9bafb8f9d9d8ed4278738dcc78d43b'
+  checksum      = '22556aff39f20a88bde4f0b944d886dd729810477b6b97dab39a0c9a60ad43e0'
   checksumType  = 'sha256'
   silentArgs    = "/S"
   validExitCodes= @(0, 3010, 1641)
