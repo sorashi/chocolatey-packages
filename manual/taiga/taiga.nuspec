@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>taiga</id>
@@ -8,18 +9,28 @@
 
     <title>Taiga</title>
     <authors>erengy</authors>
+    <copyright>2022 Eren Okka</copyright>
     <projectUrl>https://taiga.moe/</projectUrl>
-    <iconUrl>https://taiga.moe/img/icon/taiga_256px.png</iconUrl>
+    <iconUrl>https://taiga.moe/assets/img/icon/taiga_256px.png</iconUrl>
 
     <licenseUrl>https://github.com/erengy/taiga/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/erengy/taiga/</projectSourceUrl>
     <docsUrl>https://github.com/erengy/taiga/wiki</docsUrl>
+    <mailingListUrl>https://github.com/erengy/taiga/discussions</mailingListUrl>
     <bugTrackerUrl>https://github.com/erengy/taiga/issues</bugTrackerUrl>
     <tags>taiga anime</tags>
     <summary>A lightweight anime tracker for Windows</summary>
     <description>Taiga is an open-source desktop application for Windows. It automatically detects the anime videos you watch on your computer and synchronizes your progress with online services. It helps you manage your anime library, discover new series, share watched episodes and download new ones.</description>
     <releaseNotes>https://github.com/erengy/taiga/wiki/Changelog</releaseNotes>
+    <!-- <dependencies>
+      <dependency id="" version="__MINIMUM_VERSION__" />
+      <dependency id="" version="[__EXACT_VERSION__]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
+      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
+      <dependency id="" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies> -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
