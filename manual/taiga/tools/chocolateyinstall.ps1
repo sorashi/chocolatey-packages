@@ -17,3 +17,5 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+
+Start-WaitandStop "Taiga"
